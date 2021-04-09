@@ -27,7 +27,7 @@
               }
             ],
             "outArguments": [],
-            "url": "https://emailopensms.herokuapp.com/journeybuilder/execute",
+            "url": "https://emailopensms.herokuapp.com/public/execute",
             "verb": "POST",
             "body": "",
             "header": "",
@@ -42,25 +42,25 @@
         "applicationExtensionKey": "70c82d31-18e2-4034-9162-ab4c0578b83c",
         "save":
         {
-            "url": "https://emailopensms.herokuapp.com/journeybuilder/save",
+            "url": "https://emailopensms.herokuapp.com/public/save",
             "verb": "POST",
             "useJwt": true
         },
         "publish":
         {
-            "url": "https://emailopensms.herokuapp.com/journeybuilder/publish",
+            "url": "https://emailopensms.herokuapp.com/public/publish",
             "verb": "POST",
             "useJwt": true
         },
         "stop":
         {
-            "url": "https://emailopensms.herokuapp.com/journeybuilder/stop",
+            "url": "https://emailopensms.herokuapp.com/public/stop",
             "verb": "POST",
             "useJwt": true
         },
         "validate":
         {
-            "url": "https://emailopensms.herokuapp.com/journeybuilder/validate",
+            "url": "https://emailopensms.herokuapp.com/public/validate",
             "verb": "POST",
             "useJwt": true
         }
