@@ -22,7 +22,7 @@
 			"retryCount": 1,
 			"retryDelay": 10000,
 			"concurrentRequests" : 5,
-			"url": "https://some-endpoint.com/execute"
+			"url": "https://emailopensms.herokuapp.com/execute"
 		}
 	},
 	"configurationArguments": {
