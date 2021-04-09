@@ -3,6 +3,7 @@
 	"workflowApiVersion": "1.1",
 	"metaData": {
 		"icon": "images/icon.png",
+		"iconSmall": "images/iconSmall.png",
 		"category": "message"
 	},
 	"type": "myActivityType",
