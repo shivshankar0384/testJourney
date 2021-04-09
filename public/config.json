@@ -23,7 +23,7 @@
         {
             "inArguments": [
               { 
-                "ContactID": "{{Contact.Attribute.customActivity.ContactID}}"
+                "ContactID": "{{Contact.Attribute.APIData.ContactID}}"
               }
             ],
             "outArguments": [],
