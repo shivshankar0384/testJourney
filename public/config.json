@@ -27,16 +27,16 @@
 	},
 	"configurationArguments": {
 		"save": {
-			"url": "URI/for/your/activity/save"
+			"url": "https://emailopensms.herokuapp.com/save"
 		},
 		"publish": {
-			"url": "URI/for/your/activity/publish"
+			"url": "https://emailopensms.herokuapp.com/publish"
 		},
 		"validate": {
-			"url": "URI/for/your/activity/validate"
+			"url": "https://emailopensms.herokuapp.com/validate"
 		},
 		"stop": {
-			"url": "URI/for/your/activity/stop"
+			"url": "https://emailopensms.herokuapp.com/stop"
 		}
 	},
 	"wizardSteps": [{
