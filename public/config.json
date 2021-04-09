@@ -23,7 +23,7 @@
         {
             "inArguments": [
               { 
-                "SAMPLE_PARAM": "SAMPLE PARAM DATA FROM CONFIG.JSON"
+                "ContactID": "{{Contact.Attribute.API Data.ContactID}}"
               }
             ],
             "outArguments": [],
