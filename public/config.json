@@ -23,7 +23,7 @@
         {
             "inArguments": [
               { 
-                discount: 10
+                "ContactID": "{{Contact.Attribute.APIData.ContactID}}"
               }
             ],
             "outArguments": [],
