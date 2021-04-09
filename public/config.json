@@ -42,25 +42,25 @@
         "applicationExtensionKey": "70c82d31-18e2-4034-9162-ab4c0578b83c",
         "save":
         {
-            "url": "https://emailopensms.herokuapp.com/public/save",
+            "url": "https://emailopensms.herokuapp.com/journeybuilder/save",
             "verb": "POST",
             "useJwt": true
         },
         "publish":
         {
-            "url": "https://emailopensms.herokuapp.com/public/publish",
+            "url": "https://emailopensms.herokuapp.com/journeybuilder/publish",
             "verb": "POST",
             "useJwt": true
         },
         "stop":
         {
-            "url": "https://emailopensms.herokuapp.com/public/stop",
+            "url": "https://emailopensms.herokuapp.com/journeybuilder/stop",
             "verb": "POST",
             "useJwt": true
         },
         "validate":
         {
-            "url": "https://emailopensms.herokuapp.comp/public/validate",
+            "url": "https://emailopensms.herokuapp.comp/journeybuilder/validate",
             "verb": "POST",
             "useJwt": true
         }
