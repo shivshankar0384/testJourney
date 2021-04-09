@@ -4,7 +4,7 @@
     {
         "icon": "images/icon.png",
         "iconSmall": "images/iconSmall.png",
-        "category": "message"
+        "category": "messages"
     },
 
     "type": "REST",
@@ -68,8 +68,8 @@
     "userInterfaces":
     {
         "configModal": {
-            "height": 700,
-            "width": 1000,
+            "height": 500,
+            "width": 500,
             "fullscreen": false
         }
     },
