@@ -4,7 +4,7 @@
     {
         "icon": "images/icon.png",
         "iconSmall": "images/iconSmall.png",
-        "category": "<CATEGORY_OF_APP_BASED_ON_DOCS>"
+        "category": "message"
     },
 
     "type": "REST",
@@ -39,7 +39,7 @@
     
     "configurationArguments":
     {
-        "applicationExtensionKey": "<APP EXTENSION KEY>",
+        "applicationExtensionKey": "70c82d31-18e2-4034-9162-ab4c0578b83c",
         "save":
         {
             "url": "https://emailopensms.herokuapp.com/journeybuilder/save",
