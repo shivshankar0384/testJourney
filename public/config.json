@@ -27,7 +27,7 @@
               }
             ],
             "outArguments": [],
-            "url": "https://emailopensms.herokuapp.com/public/execute",
+            "url": "https://emailopensms.herokuapp.com/execute",
             "verb": "POST",
             "body": "",
             "header": "",
