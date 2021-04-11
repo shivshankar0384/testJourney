@@ -49,7 +49,8 @@ define(function (require) {
      * The config.json will be updated here if there are any updates to be done via Front End UI
      */
     function save() {
-        
+        payload['arguments'] = payload['arguments'] || {};
+	payload['arguments'].execute = payload['arguments'].execute || {};
         payload['arguments'].execute.inArguments = [
             { 
                 "status": "{{Contact.Attribute.APIData.status}}"
