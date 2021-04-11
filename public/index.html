@@ -1,81 +1,42 @@
-<!doctype html>
-<html>
-<head>
- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-<script>
-var next_step = true;
-function validationForm()
-{ 
-   
-if($("#email").val()=="")
-{
- alert("Please Enter Email Address");
- next_step=false;
  
-}
-else
- $("#txtEmail").hide();
- if($("#email").val()!="")
- {
-  var x = $("#email").val();
-  var atpos = x.indexOf("@");
-  var dotpos = x.lastIndexOf(".");
-  if ($('#email').val()!="" && (atpos<1 || dotpos<atpos+2 || dotpos+2>=x.length)) {
-   alert("Please valid Email Address");
-   next_step=false;
-   
-  }
- }
- else
-  $("#txtValidEmail").hide();
+<!DOCTYPE html>
+<html>
 
-return next_step;
-}
+<head>
+    <title></title>
+    <meta charset="utf-8" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="css/styles.css">
+    <script type="text/javascript" src="js/require.js"></script>
+    <script type="text/javascript">
+        (function () {
+            var config = {
+                baseUrl: 'js'
+            };
 
+            var dependencies = [
+                'customActivity'
+            ];
 
-</script>
- <meta charset="utf-8">
- <title></title>
- <meta name="description" content="">
- <meta name="viewport" content="width=device-width, initial-scale=1">
+            require(config, dependencies);
+        })();
+    </script>
 </head>
+
 <body>
-  <table width="100%" cellpadding="5" cellspacing="5" align="center" border="0">
-    <tr>
-      <td>
-        <table width="70%" cellpadding="5" cellspacing="5" align="center"  style="border 1px #CCC">
-          <tr>
-            <td>
-   <form action="https://cl.exct.net/DEManager.aspx" name="Smart Parental Controls Updates" method="post" onsubmit="return validationForm();">
-   <input type="hidden" name="_clientID" value="10907971" />
-   <input type="hidden" name="_deExternalKey" value="smartParentalControlsLeadGen" />
-   <input type="hidden" name="_action" value="add" />
-   <input type="hidden" name="_returnXML" value="0" />
-     
-   <input type="hidden" id="success" name="_successURL" value="https://survey.netgear.com/coupon_ThankYou"/>
-   <input type="hidden" id="error" name="_errorURL" value="https://survey.netgear.com/coupon_ThankYou" />
- <input type="hidden" name="Country" id="country" value="United States" />
-   </td>
-          </tr>
-          <tr>
-            <td>Email Address</td><td><input type="text" name="Email" id="email"></td>
-			</tr>
-			
-           <tr>
-            <td>Product Model</td><td><input type="text" name="Product Model" id="productmodel"></td>
-          </tr>
-           
-           <tr>
-            <td><input type="submit" name="submit" id="submit" value="Submit" /></td>
-          </tr>
-        </table>
-        </td>
-    
-          </tr>
-        </table>
-        </form>
-    
+    <div id="step1" class="step">
+        <div class="slds-grid">
+
+            <main class="slds-col">
+               
+                <h1>welcome to your activity!</h1>
+            </main>
+            
+
+        </div>
+
+    </div>
 </body>
+
 </html>
-
-
