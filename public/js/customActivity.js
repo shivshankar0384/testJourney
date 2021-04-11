@@ -47,11 +47,9 @@ define(['postmonger'], function (Postmonger) {
      */
     function save() {
         
-        payload['arguments'].execute.inArguments = [
-            {
-                SAMPLE_PARAM: "SAMPLE PARAM DATA FROM CONFIG.JSON"
-            }
-        ];
+        payload['arguments'].execute.inArguments = [{ "message": "hello" }];
+        
+        
         payload['metaData'].isConfigured = true;
         connection.trigger('updateActivity', payload);
         
