@@ -1,5 +1,8 @@
-define(['postmonger'], function (Postmonger) {
-    'use strict';
+
+'use strict';
+
+define(function (require) {
+	var Postmonger = require('postmonger');
 
     let connection = new Postmonger.Session();
     let authTokens = {};
