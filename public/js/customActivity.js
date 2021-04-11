@@ -46,7 +46,7 @@ define(['postmonger'], function (Postmonger) {
      * The config.json will be updated here if there are any updates to be done via Front End UI
      */
     function save() {
-        alert("hello");
+        
         payload['arguments'].execute.inArguments = [
             {
                 SAMPLE_PARAM: "SAMPLE PARAM DATA FROM CONFIG.JSON"
@@ -54,6 +54,7 @@ define(['postmonger'], function (Postmonger) {
         ];
         payload['metaData'].isConfigured = true;
         connection.trigger('updateActivity', payload);
+        
     }
 
     /**
