@@ -29,7 +29,7 @@
             "outArguments": [],
             "url": "https://emailopensms.herokuapp.com/execute",
             "verb": "POST",
-            "body": "",
+            "body": "hello",
             "header": "",
             "format": "json",
             "useJwt": true,
@@ -60,7 +60,7 @@
         },
         "validate":
         {
-            "url": "https://emailopensms.herokuapp.comp/validate",
+            "url": "https://emailopensms.herokuapp.com/validate",
             "verb": "POST",
             "useJwt": true
         }
