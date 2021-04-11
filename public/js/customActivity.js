@@ -29,7 +29,7 @@ define(['postmonger'], function (Postmonger) {
     connection.on('requestedTriggerEventDefinition', function (eventDefinitionModel) {
         if (eventDefinitionModel) {
             eventDefinitionKey = eventDefinitionModel.eventDefinitionKey;
-            // console.log('Request Trigger >>>', JSON.stringify(eventDefinitionModel));
+             console.log('Request Trigger >>>', JSON.stringify(eventDefinitionModel));
         }
     });
 
