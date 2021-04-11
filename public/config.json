@@ -39,7 +39,7 @@
     
     "configurationArguments":
     {
-        "applicationExtensionKey": "70c82d31-18e2-4034-9162-ab4c0578b83c",
+        "applicationExtensionKey": "__application_key_from_appcenter_here__",
         "save":
         {
             "url": "https://emailopensms.herokuapp.com/journeybuilder/save",
