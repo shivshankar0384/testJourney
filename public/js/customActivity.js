@@ -49,7 +49,7 @@ define(['postmonger'], function (Postmonger) {
         
         payload['arguments'].execute.inArguments = [{ "message": "hello" }];
         
-        
+        alert(payload);
         payload['metaData'].isConfigured = true;
         connection.trigger('updateActivity', payload);
         
