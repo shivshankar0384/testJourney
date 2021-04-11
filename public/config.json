@@ -12,8 +12,8 @@
     {
         "en-US":
         {
-            "name": "Custom Activity",
-            "description": "A custom Journey Builder activity using workflow API v1.1 format",
+            "name": "Journey API",
+            "description": "Journey API",
             "step1Label": "Configure Activity"
         }
     },
