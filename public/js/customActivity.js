@@ -62,7 +62,9 @@ define(function (require) {
                 "Email": "{{Contact.Attribute.APIData.Email}}"
               }
         ];
+	    
         payload['metaData'].isConfigured = true;
+	    console.log(JSON.stringify(payload));
         connection.trigger('updateActivity', payload);
         
     }
