@@ -51,18 +51,11 @@ define(function (require) {
     function save() {
         payload['arguments'] = payload['arguments'] || {};
 	payload['arguments'].execute = payload['arguments'].execute || {};
-        payload['arguments'].execute.inArguments = [
-            { 
+       payload['arguments'].execute.inArguments =
+	[{
                 "status": "{{Contact.Attribute.APIData.status}}"
-              },
-              { 
-                "ContactID": "{{Contact.Attribute.APIData.ContactID}}"
-              },
-              { 
-                "Email": "{{Contact.Attribute.APIData.Email}}"
-              }
-        ];
-	    
+        }];
+           
         payload['metaData'].isConfigured = true;
 	    debugger;
 	    console.log(JSON.stringify(payload));
