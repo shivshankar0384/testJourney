@@ -55,7 +55,9 @@ define(function (require) {
 	[{
                 "status": "{{Contact.Attribute.APIData.status}}"
         }];
-           
+       console.log(
+                        `Journey saved with payload ${JSON.stringify(payload)}`
+                    )  
         payload['metaData'].isConfigured = true;
 	connection.trigger('updateActivity', payload);
         
