@@ -55,7 +55,7 @@ define(function (require) {
 	[{
                 "status": "{{Contact.Attribute.APIData.status}}"
         }];
-           $("#txtbox").val(status);
+           
         payload['metaData'].isConfigured = true;
 	    debugger;
 	    console.log(JSON.stringify(payload));
