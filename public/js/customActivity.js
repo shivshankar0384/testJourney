@@ -95,7 +95,8 @@ define(function (require) {
             // save schema
             let dataJson = data['schema'];
 
-            for (let i = 0; i < dataJson.length; i++) {
+            for (let i = 0; i < dataJson.length; i++) 
+	    {
 
                 // Last name schema and creation of event schema
                 // Last name is a required field in SF so this is used to pull the event schema
