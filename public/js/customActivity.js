@@ -41,7 +41,7 @@ define(function (require) {
             payload = data;
         }
         initialLoad(data);
-        parseEventSchema();
+        //parseEventSchema();
     }
 
     /**
