@@ -24,12 +24,6 @@
             "inArguments": [
               { 
                 "status": "{{Contact.Attribute.APIData.status}}"
-              },
-              { 
-                "ContactID": "{{Contact.Attribute.APIData.ContactID}}"
-              },
-              { 
-                "Email": "{{Contact.Attribute.APIData.Email}}"
               }
             ],
             "outArguments": [],
