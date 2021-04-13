@@ -44,25 +44,25 @@
         {
             "url": "https://onlinesmsemail.herokuapp.com/activity/save",
             "verb": "Save",
-            "useJwt": true
+            "useJwt": false
         },
         "publish":
         {
             "url": "https://onlinesmsemail.herokuapp.com/activity/publish",
             "verb": "publish",
-            "useJwt": true
+            "useJwt": false
         },
         "stop":
         {
             "url": "https://onlinesmsemail.herokuapp.com/activity/stop",
             "verb": "stop",
-            "useJwt": true
+            "useJwt": false
         },
         "validate":
         {
             "url": "https://onlinesmsemail.herokuapp.com/activity/validate",
             "verb": "validate",
-            "useJwt": true
+            "useJwt": false
         }
     },
     "userInterfaces":
