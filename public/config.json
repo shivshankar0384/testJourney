@@ -43,25 +43,25 @@
         "save":
         {
             "url": "https://onlinesmsemail.herokuapp.com/save",
-            "verb": "POST",
+            "verb": "Save",
             "useJwt": true
         },
         "publish":
         {
             "url": "https://onlinesmsemail.herokuapp.com/publish",
-            "verb": "POST",
+            "verb": "publish",
             "useJwt": true
         },
         "stop":
         {
             "url": "https://onlinesmsemail.herokuapp.com/stop",
-            "verb": "POST",
+            "verb": "stop",
             "useJwt": true
         },
         "validate":
         {
             "url": "https://onlinesmsemail.herokuapp.com/validate",
-            "verb": "POST",
+            "verb": "validate",
             "useJwt": true
         }
     },
