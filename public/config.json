@@ -27,7 +27,7 @@
               }
             ],
             "outArguments": [],
-            "url": "https://onlinesmsemail.herokuapp.com/execute",
+            "url": "https://onlinesmsemail.herokuapp.com/activity/execute",
             "verb": "POST",
             "body": "hello",
             "header": "",
@@ -42,25 +42,25 @@
         "applicationExtensionKey": "70c82d31-18e2-4034-9162-ab4c0578b83c",
         "save":
         {
-            "url": "https://onlinesmsemail.herokuapp.com/save",
+            "url": "https://onlinesmsemail.herokuapp.com/activity/save",
             "verb": "Save",
             "useJwt": true
         },
         "publish":
         {
-            "url": "https://onlinesmsemail.herokuapp.com/publish",
+            "url": "https://onlinesmsemail.herokuapp.com/activity/publish",
             "verb": "publish",
             "useJwt": true
         },
         "stop":
         {
-            "url": "https://onlinesmsemail.herokuapp.com/stop",
+            "url": "https://onlinesmsemail.herokuapp.com/activity/stop",
             "verb": "stop",
             "useJwt": true
         },
         "validate":
         {
-            "url": "https://onlinesmsemail.herokuapp.com/validate",
+            "url": "https://onlinesmsemail.herokuapp.com/activity/validate",
             "verb": "validate",
             "useJwt": true
         }
