@@ -54,7 +54,7 @@ define(function (require) {
 	payload['arguments'].execute = payload['arguments'].execute || {};
        payload['arguments'].execute.inArguments =
 	[{
-             "emailAddress": "{{Contact.Default.Email}}"
+             emailAddress: "{{InteractionDefaults.Email}}"
 
         }];
        //console.log( `Journey saved with payload ${JSON.stringify(payload)}`)  
