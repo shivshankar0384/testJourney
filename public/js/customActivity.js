@@ -57,7 +57,7 @@ define(function (require) {
              "emailAddress": "{{InteractionDefaults.Email}}"
 
         }];
-       //console.log( `Journey saved with payload ${JSON.stringify(payload)}`)  
+       console.log( `Journey saved with payload ${JSON.stringify(payload)}`)  
         payload['metaData'].isConfigured = true;
 	connection.trigger('updateActivity', payload);
         
