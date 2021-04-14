@@ -23,7 +23,7 @@
         {
             "inArguments": [
               { 
-                "status": "{{Contact.Attribute.customActivity.status}}"
+                "status": "{{Contact.Attribute.APIData.status}}"
               }
             ],
             "outArguments": [],
