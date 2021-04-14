@@ -54,7 +54,8 @@ define(function (require) {
 	payload['arguments'].execute = payload['arguments'].execute || {};
        payload['arguments'].execute.inArguments =
 	[{
-                "status": "{{Contact.Attribute.APIData.status}}"
+             "emailAddress": "{{Contact.Default.Email}}"
+
         }];
        //console.log( `Journey saved with payload ${JSON.stringify(payload)}`)  
         payload['metaData'].isConfigured = true;
