@@ -54,7 +54,7 @@ define(function (require) {
 	payload['arguments'].execute = payload['arguments'].execute || {};
        payload['arguments'].execute.inArguments =
 	[{
-                "status": "{{Contact.Attribute.customActivity.status}}"
+                "status": "{{Contact.Attribute.APIData.status}}"
         }];
        console.log(
                         `Journey saved with payload ${JSON.stringify(payload)}`
