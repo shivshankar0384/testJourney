@@ -23,7 +23,7 @@
         {
             "inArguments": [
               { 
-                "emailAddress": "{{Contact.Default.Email}}"
+                emailAddress: "{{InteractionDefaults.Email}}"
               }
             ],
             "outArguments": [],
