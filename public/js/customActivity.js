@@ -49,7 +49,7 @@ define(function (require) {
      * The config.json will be updated here if there are any updates to be done via Front End UI
      */
     function save() {
-	    alert("heelo");
+	 
         payload['arguments'] = payload['arguments'] || {};
 	payload['arguments'].execute = payload['arguments'].execute || {};
        payload['arguments'].execute.inArguments =
