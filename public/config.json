@@ -23,7 +23,7 @@
         {
             "inArguments": [
               { 
-                "status": "{{Contact.Attribute.APIData.status}}"
+                "emailAddress": "{{Contact.Default.Email}}"
               }
             ],
             "outArguments": [],
