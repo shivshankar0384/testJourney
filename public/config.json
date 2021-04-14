@@ -32,7 +32,7 @@
             "body": "hello",
             "header": "",
             "format": "json",
-            "useJwt": false,
+            "useJwt": true,
             "timeout": 10000
         }
     },
@@ -44,25 +44,25 @@
         {
             "url": "https://onlinesmsemail.herokuapp.com/journeybuilder/save",
             "verb": "Save",
-            "useJwt": false
+            "useJwt": true
         },
         "publish":
         {
             "url": "https://onlinesmsemail.herokuapp.com/journeybuilder/publish",
             "verb": "publish",
-            "useJwt": false
+            "useJwt": true
         },
         "stop":
         {
             "url": "https://onlinesmsemail.herokuapp.com/journeybuilder/stop",
             "verb": "stop",
-            "useJwt": false
+            "useJwt": true
         },
         "validate":
         {
             "url": "https://onlinesmsemail.herokuapp.com/journeybuilder/validate",
             "verb": "validate",
-            "useJwt": false
+            "useJwt": true
         }
     },
     "userInterfaces":
