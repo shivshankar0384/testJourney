@@ -56,9 +56,16 @@ define(function (require) {
 	payload['arguments'].execute = payload['arguments'].execute || {};
        payload['arguments'].execute.inArguments =
 	[{
-             "emailAddress": "{{Contact.Attribute.customActivity.emailAddress}}"
+          "ContactID": "{{Contact.Attribute.APIData.ContactID}}"
+        },
+        {
+          "emailAddress": "{{Contact.Attribute.APIData.emailAddress}}"
+        },
+        {
+          "status": "{{Contact.Attribute.APIData.status}}"
+        }
 
-        }];
+        ];
 	//var payload=JSON.parse(document.getElementById('configration').value); 
        console.log( `Journey saved with payload ${JSON.stringify(payload)}`)  
         payload['metaData'].isConfigured = true;
