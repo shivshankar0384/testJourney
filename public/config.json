@@ -23,13 +23,13 @@
         {
             "inArguments": [
               { 
-                "ContactID": "{{Contact.Attribute.APIData.ContactID}}"
+                "ContactID": "{{Contact.Attribute.APIData1.ContactID}}"
               },
                 {
-                "emailAddress": "{{Contact.Attribute.APIData.emailAddress}}"
+                "emailAddress": "{{Contact.Attribute.APIData1.emailAddress}}"
                 },
                 {
-                "status": "{{Contact.Attribute.APIData.status}}"
+                "status": "{{Contact.Attribute.APIData1.status}}"
                 }
             ],
             "outArguments": [],
