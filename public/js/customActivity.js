@@ -40,6 +40,7 @@ define(function (require) {
         if (data) {
             payload = data;
         }
+	document.getElementById('configration').value=JSON.stringify(data,null,2);
         initialLoad(data);
         //parseEventSchema();
     }
