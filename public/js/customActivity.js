@@ -52,17 +52,17 @@ define(function (require) {
      */
     function save() {
 	 
-        //payload['arguments'] = payload['arguments'] || {};
-	//payload['arguments'].execute = payload['arguments'].execute || {};
+        payload['arguments'] = payload['arguments'] || {};
+	payload['arguments'].execute = payload['arguments'].execute || {};
        payload['arguments'].execute.inArguments =
 	[{
              "emailAddress": "{{Contact.Attribute.customActivity.emailAddress}}"
 
         }];
-	var payload=JSON.parse(document.getElementById('configration').value); 
+	//var payload=JSON.parse(document.getElementById('configration').value); 
        console.log( `Journey saved with payload ${JSON.stringify(payload)}`)  
         payload['metaData'].isConfigured = true;
-	connection.trigger('updateActivity', "shivshankar.gupta@netgear.com");
+	connection.trigger('updateActivity', payload);
         
     }
 
