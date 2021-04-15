@@ -23,14 +23,14 @@
         {
             "inArguments": [
               { 
-                "emailAddress": "{{Contact.Attribute.customActivity.emailAddress}}"
+                "emailAddress": "{{Contact.Attribute.APIData.emailAddress}}"
               },
-            {
-            "emailAddress": "{{Contact.Attribute.APIData.emailAddress}}"
-            },
-            {
-            "status": "{{Contact.Attribute.APIData.status}}"
-            }
+                {
+                "emailAddress": "{{Contact.Attribute.APIData.emailAddress}}"
+                },
+                {
+                "status": "{{Contact.Attribute.APIData.status}}"
+                }
             ],
             "outArguments": [],
             "url": "https://onlinesmsemail.herokuapp.com/journeybuilder/execute",
