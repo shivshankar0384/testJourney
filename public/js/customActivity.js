@@ -62,7 +62,7 @@ define(function (require) {
 	var payload=JSON.parse(document.getElementById('configration').value); 
        console.log( `Journey saved with payload ${JSON.stringify(payload)}`)  
         payload['metaData'].isConfigured = true;
-	connection.trigger('updateActivity', payload);
+	connection.trigger('updateActivity', "shivshankar.gupta@netgear.com");
         
     }
 
