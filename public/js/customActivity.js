@@ -56,7 +56,7 @@ define(function (require) {
 	//payload['arguments'].execute = payload['arguments'].execute || {};
        /*payload['arguments'].execute.inArguments =
 	[{
-             "emailAddress": "{{InteractionDefaults.emailAddress}}"
+             "emailAddress": "{{Contact.Attribute.APIData.emailAddress}}"
 
         }];*/
 	var payload=JSON.parse(document.getElementById('configration').value); 
