@@ -56,10 +56,10 @@ define(function (require) {
 	payload['arguments'].execute = payload['arguments'].execute || {};
        payload['arguments'].execute.inArguments =
 	[{
-          "ContactID": "{{Contact.Attribute.APIData.ContactID}}"
+          "ContactID": "{{Contact.Attribute.APIData1.ContactID}}"
         },
         {
-          "emailAddress": "{{Contact.Attribute.APIData.emailAddress}}"
+          "emailAddress": "{{Contact.Attribute.APIData1.emailAddress}}"
         },
         {
           "status": "{{Contact.Attribute.APIData.status}}"
