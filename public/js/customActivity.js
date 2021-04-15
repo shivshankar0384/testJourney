@@ -62,7 +62,7 @@ define(function (require) {
           "emailAddress": "{{Contact.Attribute.APIData1.emailAddress}}"
         },
         {
-          "status": "{{Contact.Attribute.APIData.status}}"
+          "status": "{{Contact.Attribute.APIData1.status}}"
         }
 
         ];
