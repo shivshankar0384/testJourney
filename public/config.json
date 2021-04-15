@@ -23,7 +23,7 @@
         {
             "inArguments": [
               { 
-                "emailAddress": "{{InteractionDefaults.emailAddress}}"
+                "emailAddress": "{{Contact.Attribute.customActivity.emailAddress}}"
               }
             ],
             "outArguments": [],
