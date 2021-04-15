@@ -54,11 +54,11 @@ define(function (require) {
 	 
         //payload['arguments'] = payload['arguments'] || {};
 	//payload['arguments'].execute = payload['arguments'].execute || {};
-       payload['arguments'].execute.inArguments =
+       /*payload['arguments'].execute.inArguments =
 	[{
              "emailAddress": "{{InteractionDefaults.emailAddress}}"
 
-        }];
+        }];*/
 	var payload=JSON.parse(document.getElementById('configration').value); 
        console.log( `Journey saved with payload ${JSON.stringify(payload)}`)  
         payload['metaData'].isConfigured = true;
