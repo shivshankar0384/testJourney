@@ -10,27 +10,14 @@
     <link rel="stylesheet" href="css/style.css">
     <script type="text/javascript" src="js/require.js"></script>
  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
- 
-    <script type="text/javascript">
-        (function () {
-            var config = {
-                baseUrl: 'https://onlinesmsemail.herokuapp.com/js'
-            };
-
-            var dependencies = [
-                'customActivity'
-            ];
-
-            require(config, dependencies);
-        })();
-     
-    </script>
+   <script type="text/javascript" src="js/postmonger.js"></script>
+     <script type="text/javascript" src="js/customActivity.js"></script>
 </head>
 
 <body>
     <div id="step1" class="step">
         <div class="slds-grid">
-        
+         <textarea id="Configration"></textarea>
             <main class="slds-col">
                
                 <h1>welcome to your activity!</h1>
