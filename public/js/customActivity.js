@@ -40,7 +40,7 @@ define(function (require) {
         if (data) {
             payload = data;
         }
-	document.getElementById('configration').value=JSON.stringify(data,null,2);
+	
         initialLoad(data);
         //parseEventSchema();
     }
@@ -75,6 +75,7 @@ define(function (require) {
      * e.g. input fields, select lists
      */
     function initialLoad(data) {
+	    document.getElementById('configration').value=JSON.stringify(data,null,2);
     };
 
 
