@@ -39,6 +39,7 @@ define(function (require) {
     function initialize(data) {
         if (data) {
             payload = data;
+		alert(payload);
         }
 	
         initialLoad(data);
