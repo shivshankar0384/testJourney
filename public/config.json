@@ -23,7 +23,7 @@
         {
             "inArguments": [
               { 
-                "emailAddress": "{{Contact.Attribute.APIData.emailAddress}}"
+                "ContactID": "{{Contact.Attribute.APIData.ContactID}}"
               },
                 {
                 "emailAddress": "{{Contact.Attribute.APIData.emailAddress}}"
