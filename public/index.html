@@ -1,33 +1,33 @@
- 
 <!DOCTYPE html>
 <html>
 
 <head>
-    <title></title>
+    <title>JOURNEY BUILDER APP TEMPLATE</title>
     <meta charset="utf-8" />
-    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <meta http-equiv="x-ua-compatible" content="ie-edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="stylesheet" href="css/style.css">
+
+    <link href='https://fonts.googleapis.com/css?family=lobster' rel='stylesheet' type='text/css'>
+    <link rel='stylesheet' href="https://cdnjs.cloudflare.com/ajax/libs/design-system/2.8.3/fonts/SalesforceSans-Bold.ttf">
+    <link rel='stylesheet' href="css/styles.css">
+    
     <script type="text/javascript" src="js/require.js"></script>
- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-   <script type="text/javascript" src="js/postmonger.js"></script>
-     <script type="text/javascript" src="js/customActivity.js"></script>
+    <script type="text/javascript">
+        (function() {
+            var config = {
+                baseUrl: 'https://onlinesmsemail.herokuapp.com/'
+            };
+            var dependencies = [
+                'customActivity'
+            ];
+            require(config, dependencies);
+        })();
+    </script>
 </head>
 
+
 <body>
-    <div id="step1" class="step">
-        <div class="slds-grid">
-         <textarea id="configration"></textarea>
-            <main class="slds-col">
-               
-                <h1>welcome to your activity!</h1>
-             <input type="text" id="txtbox" value="">
-            </main>
-            
-
-        </div>
-
-    </div>
+    <h1>THIS IS THE APP UI PORTION</h1>
 </body>
 
 </html>
