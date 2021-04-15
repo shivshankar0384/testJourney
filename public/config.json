@@ -23,13 +23,13 @@
         {
             "inArguments": [
                 { 
-                "ContactID": "{{Event.JourneyActivity_testdata.ContactID}}"
+                "ContactID": "{{Event.APIEvent-d82bfe91-b0ea-8e61-0dc0-e0c9b245ce49.ContactID}}"
                 },
                 {
-                  "emailAddress": "{{Event.JourneyActivity_testdata.emailAddress}}"
+                  "emailAddress": "{{Event.APIEvent-d82bfe91-b0ea-8e61-0dc0-e0c9b245ce49.emailAddress}}"
                 },
                 {
-                  "status": "{{Event.JourneyActivity_testdata.status}}"
+                  "status": "{{Event.APIEvent-d82bfe91-b0ea-8e61-0dc0-e0c9b245ce49.status}}"
                 }
             ],
             "outArguments": [],
