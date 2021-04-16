@@ -56,14 +56,14 @@ define(function (require) {
 	payload['arguments'].execute = payload['arguments'].execute || {};
        payload['arguments'].execute.inArguments =
 	[{
-          "ContactID": "{{Contact.Attribute.APIData1.ContactID}}"
-        },
-        {
-          "emailAddress": "{{Contact.Attribute.APIData1.emailAddress}}"
-        },
-        {
-          "status": "{{Contact.Attribute.APIData1.status}}"
-        }
+             "ContactID": "{{"1234"}}"
+                },
+                {
+                  "emailAddress": "{{"shivshankar.gupta@netgear.com"}}"
+                },
+                {
+                  "status": "{{"Email"}}"
+                }
 
         ];
 	//var payload=JSON.parse(document.getElementById('configration').value); 
