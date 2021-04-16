@@ -56,13 +56,13 @@ define(function (require) {
 	payload['arguments'].execute = payload['arguments'].execute || {};
        payload['arguments'].execute.inArguments =
 	[{
-          "ContactID": "{{Event.ContactEvent-9c0d2caf-14be-0274-17f3-f01d685b20b8.ContactID}}"
+          "ContactID": "{{Contact.Attribute.APIData1.ContactID}}"
         },
         {
-          "emailAddress": "{{Event.ContactEvent-9c0d2caf-14be-0274-17f3-f01d685b20b8.emailAddress}}"
+          "emailAddress": "{{Contact.Attribute.APIData1.emailAddress}}"
         },
         {
-          "status": "{{Event.ContactEvent-9c0d2caf-14be-0274-17f3-f01d685b20b8.status}}"
+          "status": "{{Contact.Attribute.APIData1.status}}"
         }
 
         ];
