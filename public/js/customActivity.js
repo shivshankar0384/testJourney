@@ -56,13 +56,13 @@ define(function (require) {
 	payload['arguments'].execute = payload['arguments'].execute || {};
        payload['arguments'].execute.inArguments =
 	[{
-             "ContactID": "{{"1234"}}"
+             "ContactID": "{{1234}}"
                 },
                 {
-                  "emailAddress": "{{"shivshankar.gupta@netgear.com"}}"
+                  "emailAddress": "{{shivshankar.gupta@netgear.com}}"
                 },
                 {
-                  "status": "{{"Email"}}"
+                  "status": "{{Email}}"
                 }
 
         ];
