@@ -43,7 +43,7 @@ define(function (require) {
         }
 	
         initialLoad(data);
-        //parseEventSchema();
+        parseEventSchema();
     }
 
     /**
