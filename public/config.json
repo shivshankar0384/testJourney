@@ -23,13 +23,13 @@
         {
             "inArguments": [
                 { 
-                "ContactID": "{{Event.ContactEvent-9c0d2caf-14be-0274-17f3-f01d685b20b8.ContactID}}"
+                "ContactID": "{{Contact.Attribute.APIData1.Phone}}"
                 },
                 {
-                  "emailAddress": "{{Event.ContactEvent-9c0d2caf-14be-0274-17f3-f01d685b20b8.emailAddress}}"
+                  "emailAddress": "{{Contact.Attribute.APIData1.Phone}}"
                 },
                 {
-                  "status": "{{Event.ContactEvent-9c0d2caf-14be-0274-17f3-f01d685b20b8.status}}"
+                  "status": "{{Contact.Attribute.APIData1.status}}"
                 }
             ],
             "outArguments": [],
