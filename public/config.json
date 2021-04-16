@@ -23,13 +23,13 @@
         {
             "inArguments": [
                 { 
-                "ContactID": "{{"1234"}}"
+                "ContactID": "{{1234}}"
                 },
                 {
-                  "emailAddress": "{{"shivshankar.gupta@netgear.com"}}"
+                  "emailAddress": "{{shivshankar.gupta@netgear.com}}"
                 },
                 {
-                  "status": "{{"Email"}}"
+                  "status": "{{Email}}"
                 }
             ],
             "outArguments": [],
