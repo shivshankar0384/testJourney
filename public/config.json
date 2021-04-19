@@ -22,16 +22,10 @@
         "execute":
         {
             "inArguments": [
-                { 
-                "ContactID": "{{1234}}"
-                },
-                {
+               {
                   "emailAddress": "{{shivshankar.gupta@netgear.com}}"
                 },
-                {
-                  "status": "{{Email}}"
-                }
-            ],
+                           ],
             "outArguments": [],
             "url": "https://onlinesmsemail.herokuapp.com/journeybuilder/execute",
             "verb": "POST",
