@@ -26,6 +26,7 @@ define([
     }
 
     function initialize(data) {
+        document.getElementById('configration').value=JSON.stringify(data,null,2);
         console.log(data);
         if (data) {
             payload = data;
@@ -70,7 +71,7 @@ define([
             "tokens": authTokens,
             "emailAddress": "{{shivshankar.gupta@netgear.com}}"
         }];
-        
+        var payload=JSON.parse(document.getElementById('configration').value; 
         payload['metaData'].isConfigured = true;
 
         console.log(payload);
