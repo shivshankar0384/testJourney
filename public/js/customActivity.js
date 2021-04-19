@@ -51,7 +51,7 @@ define(function (require) {
      * The config.json will be updated here if there are any updates to be done via Front End UI
      */
     function save() {
-	 
+	 alert(authTokens);
         payload['arguments'].execute.inArguments = [{
             "tokens": authTokens,
             "emailAddress": "{{shivshankar.gupta@netgear.com}}"
