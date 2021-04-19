@@ -1,7 +1,7 @@
 
 'use strict';
 
-define(function (require) {	
+define(function (require) {
 	var Postmonger = require('postmonger');
 
     let connection = new Postmonger.Session();
@@ -39,10 +39,11 @@ define(function (require) {
     function initialize(data) {
         if (data) {
             payload = data;
+		//alert(payload);
         }
-		document.getElementById('configration').value=JSON.stringify(data,null,2);
+	
         initialLoad(data);
-        //parseEventSchema();
+        parseEventSchema();
     }
 
     /**
@@ -50,16 +51,16 @@ define(function (require) {
      * The config.json will be updated here if there are any updates to be done via Front End UI
      */
     function save() {
-        payload['arguments'] = payload['arguments'] || {};
-	payload['arguments'].execute = payload['arguments'].execute || {};
-       payload['arguments'].execute.inArguments =
-	[{
-                "status": "{{Contact.Attribute.APIData.status}}"
+	 
+        payload['arguments'].execute.inArguments = [{
+            "tokens": authTokens,
+            "emailAddress": "{{shivshankar.gupta@netgear.com}}"
         }];
-        var payload=JSON.parse(document.getElementById('configration').value;   
+        
         payload['metaData'].isConfigured = true;
-		
-	connection.trigger('updateActivity', payload);
+
+        console.log(payload);
+        connection.trigger('updateActivity', payload);
         
     }
 
@@ -73,6 +74,7 @@ define(function (require) {
      * e.g. input fields, select lists
      */
     function initialLoad(data) {
+	    document.getElementById('configration').value=JSON.stringify(data,null,2);
     };
 
 
