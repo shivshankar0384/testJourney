@@ -1,85 +1,71 @@
 {
-    "workflowApiVersion": "1.1",
-    "metaData":
-    {
-        "icon": "images/icon.png",
-        "iconSmall": "images/iconSmall.png",
-        "category": "message"
-    },
+	"workflowApiVersion": "1.1",
+	"metaData": {
+		"icon": "images/icon.png",
+		"iconSmall": "images/iconSmall.png",
+		"category": "message"
+	},
 
-    "type": "REST",
-    "lang":
-    {
-        "en-US":
-        {
-            "name": "Journey API",
-            "description": "Journey API",
-            "step1Label": "Configure Activity"
-        }
-    },
-    "arguments":
-    {
-        "execute":
-        {
-            "inArguments": [
-               {
-                  "emailAddress": "{{shivshankar.gupta@netgear.com}}"
-                },
-                           ],
-            "outArguments": [],
-            "url": "https://onlinesmsemail.herokuapp.com/journeybuilder/execute",
-            "verb": "POST",
-            "body": "hello",
-            "header": "",
-            "format": "json",
-            "useJwt": true,
-            "timeout": 10000
-        }
-    },
-    
-    "configurationArguments":
-    {
-        "applicationExtensionKey": "70c82d31-18e2-4034-9162-ab4c0578b83c",
-        "save":
-        {
-            "url": "https://onlinesmsemail.herokuapp.com/journeybuilder/save",
-            "verb": "Save",
-            "useJwt": true
-        },
-        "publish":
-        {
-            "url": "https://onlinesmsemail.herokuapp.com/journeybuilder/publish",
-            "verb": "publish",
-            "useJwt": true
-        },
-        "stop":
-        {
-            "url": "https://onlinesmsemail.herokuapp.com/journeybuilder/stop",
-            "verb": "stop",
-            "useJwt": true
-        },
-        "validate":
-        {
-            "url": "https://onlinesmsemail.herokuapp.com/journeybuilder/validate",
-            "verb": "validate",
-            "useJwt": true
-        }
-    },
-    "userInterfaces":
-    {
-        "configModal": {
-            "height": 600,
-            "width": 600,
-            "fullscreen": false
-        }
-    },
-    "schema": 
-    {
-        "arguments":{
-            "execute": {
-                "inArguments": [],
-                "outArguments": []
-            }
-        }
-    }
+	"type": "REST",
+	"lang": {
+		"en-US": {
+			"name": "Journey API",
+			"description": "Journey API",
+			"step1Label": "Configure Activity"
+		}
+	},
+	"arguments": {
+		"execute": {
+			"inArguments": [{
+				"emailAddress": "{{shivshankar.gupta@netgear.com}}"
+			}],
+			"outArguments": [],
+			"url": "https://onlinesmsemail.herokuapp.com/journeybuilder/execute",
+			"verb": "POST",
+			"body": "hello",
+			"header": "",
+			"format": "json",
+			"useJwt": true,
+			"timeout": 10000
+		}
+	},
+
+	"configurationArguments": {
+		"applicationExtensionKey": "70c82d31-18e2-4034-9162-ab4c0578b83c",
+		"save": {
+			"url": "https://onlinesmsemail.herokuapp.com/journeybuilder/save",
+			"verb": "Save",
+			"useJwt": true
+		},
+		"publish": {
+			"url": "https://onlinesmsemail.herokuapp.com/journeybuilder/publish",
+			"verb": "publish",
+			"useJwt": true
+		},
+		"stop": {
+			"url": "https://onlinesmsemail.herokuapp.com/journeybuilder/stop",
+			"verb": "stop",
+			"useJwt": true
+		},
+		"validate": {
+			"url": "https://onlinesmsemail.herokuapp.com/journeybuilder/validate",
+			"verb": "validate",
+			"useJwt": true
+		}
+	},
+	"userInterfaces": {
+		"configModal": {
+			"height": 600,
+			"width": 600,
+			"fullscreen": false
+		}
+	},
+	"schema": {
+		"arguments": {
+			"execute": {
+				"inArguments": [],
+				"outArguments": []
+			}
+		}
+	}
 }
