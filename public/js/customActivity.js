@@ -52,24 +52,15 @@ define(function (require) {
      */
     function save() {
 	 
-        payload['arguments'] = payload['arguments'] || {};
-	payload['arguments'].execute = payload['arguments'].execute || {};
-       payload['arguments'].execute.inArguments =
-	[{
-             "ContactID": "{{1234}}"
-                },
-                {
-                  "emailAddress": "{{shivshankar.gupta@netgear.com}}"
-                },
-                {
-                  "status": "{{Email}}"
-                }
-
-        ];
-	//var payload=JSON.parse(document.getElementById('configration').value); 
-       console.log( 'Journey saved with payload ${JSON.stringify(payload)}')  
+        payload['arguments'].execute.inArguments = [{
+            "tokens": authTokens,
+            "emailAddress": "{{shivshankar.gupta@netgear.com}}"
+        }];
+        
         payload['metaData'].isConfigured = true;
-	connection.trigger('updateActivity', payload);
+
+        console.log(payload);
+        connection.trigger('updateActivity', payload);
         
     }
 
