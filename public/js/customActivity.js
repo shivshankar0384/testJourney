@@ -73,7 +73,7 @@ define([
         }];
         
         payload['metaData'].isConfigured = true;
-
+        alert(payload);
         console.log(payload);
         connection.trigger('updateActivity', payload);
     }
